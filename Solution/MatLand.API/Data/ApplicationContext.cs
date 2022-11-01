@@ -1,11 +1,12 @@
 ﻿
 using MatLand.Domain.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace MatLand.API.Data
 {
-    public class ApplicationContext : IdentityDbContext<ApplicationUser, ApplicationRole, Guid>
+    public class ApplicationContext : IdentityDbContext<IdentityUser>
     {
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
         {

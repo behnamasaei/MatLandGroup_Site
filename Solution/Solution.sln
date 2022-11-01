@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatLand.API", "MatLand.API\MatLand.API.csproj", "{85787CDD-000B-45FC-8634-A6EC85514B37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatLand.API", "MatLand.API\MatLand.API.csproj", "{85787CDD-000B-45FC-8634-A6EC85514B37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatLand.Domain", "MatLand.Domain\MatLand.Domain.csproj", "{8032FB06-3C86-4EA4-AC3B-A542D1CBF23D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatLand.Domain", "MatLand.Domain\MatLand.Domain.csproj", "{8032FB06-3C86-4EA4-AC3B-A542D1CBF23D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatLand.Application", "MatLand.Application\MatLand.Application.csproj", "{177C4DC4-C408-4FA0-A655-D61DD695AF75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8032FB06-3C86-4EA4-AC3B-A542D1CBF23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8032FB06-3C86-4EA4-AC3B-A542D1CBF23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8032FB06-3C86-4EA4-AC3B-A542D1CBF23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177C4DC4-C408-4FA0-A655-D61DD695AF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177C4DC4-C408-4FA0-A655-D61DD695AF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177C4DC4-C408-4FA0-A655-D61DD695AF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177C4DC4-C408-4FA0-A655-D61DD695AF75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
